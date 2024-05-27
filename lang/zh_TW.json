@@ -1,0 +1,8 @@
+{
+    "Generate random letters: ": "產生隨機字母：",
+    "Generate random number: ": "產生隨機數：",
+    "Generate random one-time password: ": "產生隨機一次性密碼（OTP）：",
+    "Generate random password with dash: ": "產生含破折號的隨機密碼：",
+    "Generate random password without dash: ": "產生不含破折號的隨機密碼：",
+    "Generate random token: ": "產生隨機憑據："
+}
