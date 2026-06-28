@@ -6,6 +6,9 @@ use Valorin\Random\Random;
 
 class GeneratorController extends Controller
 {
+    /**
+     * Display a listing of the resource.
+     */
     public function index()
     {
         $number = Random::number(1, 100000);

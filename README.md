@@ -1,4 +1,4 @@
-# Laravel 11 隨機產生加密安全隨機值
+# Laravel 12 隨機產生加密安全隨機值
 
 引入 valorin 的 random 套件來擴增隨機產生加密安全隨機值，加密是一種使用加密演算法和金鑰來改變資料的數學程序。
 
@@ -16,11 +16,15 @@ $ composer install
 ```sh
 $ php artisan key:generate
 ```
+- 執行 __Artisan__ 指令的 __migrate__ 來執行所有未完成的遷移。
+```sh
+$ php artisan migrate
+```
 - 在瀏覽器中輸入已定義的路由 URL 來訪問，例如：http://127.0.0.1:8000。
 - 你可以經由 `/generator/` 來進行隨機加密安全隨機值產生。
 
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/vJxjvmM.png)
+![](https://i.imgur.com/dCjMmuA.png)
 > 隨機性對於安全加密非常重要
